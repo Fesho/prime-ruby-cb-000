@@ -1,9 +1,9 @@
 def prime?(prime)
  prime= prime.to_i
 if prime % 2 == 0
- prime = true
+ true
 else
-prime = false
+ false
 end
 end
 prime?(4)
